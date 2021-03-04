@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golf App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <section class="form-section">
+        <h1> Welcome to Wolf</h1>
+        <form action="" id="player-form">
+            <h2>Enter Player Names</h2>
+            <input type="text" placeholder="Player Name">
+            <input type="text" placeholder="Player Name">
+            <input type="text" placeholder="Player Name">
+            <input type="text" placeholder="Player Name">
+            <input type="text" placeholder="Player Name">
+            <button class="btn" id="start-game">Start Game</button>
+        </form>
+    </section>
+
+    <section class="game-display-none main-game">
+
+        <section class="game-info">
+            <h2 class="hole">Hole: <span class="currentHole">1</span></h2>
+            <h2 class="wolf">Wolf: <span class="currentWolf"></span></h2>
+        </section>
+
+        <section class="game-container">
+            <div class="wolf-scenario">
+                <select name="Wolf_Won-Lost" id="won-lost">
+                    <option value="">--Wolf Won or Lost--</option>
+                    <option value="Won">Won</option>
+                    <option value="Lost">Lost</option>
+                </select>
+            </div>
+            <div class="game-buttons">
+                <button class="btn" id="tie">Tie</button>
+                <button class="btn" id="partner">Partner</button>
+                <button class="btn" id="no-partner">No Partner</button>
+                <button class="btn" id="lone-wolf">Lone Wolf</button>
+            </div>
+
+            <div class="scores-container">
+                <div class="scores">
+                </div>
+
+                <div class="game-controls">
+                    <button class="btn" id="prev-hole">Prev Hole</button>
+                    <button class="btn" id="end-game">Settle Bets</button>
+                    <button class="btn" id="next-hole">Next Hole</button>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- <h2 class="divvy-table-title">Divvy Table</h2> -->
+        <section class="divvy-table"></section>
+
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

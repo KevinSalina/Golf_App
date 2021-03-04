@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Intro / Form Section */
+
+h1{
+    font-size: 2.25rem;
+}
+
+form > h2{
+    font-size: 1.5rem;
+}
+
+.form-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+    margin: 1.2rem 0;
+    padding: 1.2rem 2.5rem;
+    background-color: #6C8576;
+    border-radius: 10px;
+}
+
+.form-section input{
+    margin: .6rem 0;
+    padding: .5rem 1rem;
+}
+
+.form-section form .btn{
+    /* align-self: center; */
+    margin: .6rem 0;
+    padding: .5rem ;
+    border-radius: 5px;
+    border: none;
+    background-color: lightslategray;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    transition: all .3s ease-in-out;
+}
+
+.form-section form .btn:hover{
+    background-color: white;
+    color: lightslategray;
+    
+}
+
+/* Main Game Seciton */
+
+.game-display-none{
+    display: none;
+}
+
+.main-game{
+    /* background-color: lightgray; */
+    padding: 1rem;
+}
+
+.game-info h2{
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+}
+
+h2.wolf{
+    font-size: 1.5rem;
+}
+
+.game-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.2rem .5rem;
+    border-radius: 15px;
+    background-color: #6C8576; 
+}
+
+.wolf-scenario select{
+    /* margin-bottom: .8rem; */
+    padding: .5rem 1rem;
+}
+
+.game-buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1.2rem 0;
+}
+
+.game-buttons .btn{
+    font-size: .875rem;
+    padding: .4rem .7rem;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+}
+
+.scores-container{
+    display: flex;
+    flex-direction: column;
+    background-color:#c4c4c4 ;
+    width: 100%;
+    border-radius: 15px;
+    padding: 1rem 1.4rem;
+}
+
+.scores-container .player-score{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    margin: 1rem 0;
+    padding: 1rem;
+    font-weight: 700;
+}
+
+.player-score p{
+    display: flex;
+    align-items: center;
+}
+
+.wolf-logo{
+    background-image: url(/GolfApp/assets/wolf-emblem.svg);
+    margin-left: .5rem;
+    width: 2rem;
+    height: 2rem;
+    display: inline-block;
+}
+
+.game-controls{
+    display: flex;
+    justify-content: space-between;
+}
+
+.game-controls .btn{
+    font-size: .8.75rem;
+    padding: .4rem .7rem;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+}
+
+#prev-hole, #next-hole{
+    font-size: .7rem;
+}
+
+#end-game{
+    background-color: #6A6A6A;
+    color: white;
+}
+
+
+/* Divvy Table */
+
+.divvy-table{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+.divvy-table span{
+    display: inline-block;
+}
+
+.player-table{
+    text-align: center;
+}
+
+.player-table h3{
+    margin-bottom: .875rem;
+}
+
+.opponents-table{
+    margin-bottom: .875rem;
+}
+
+.opponents-table p{
+    margin-bottom: .3rem;
+}
+
+.green{
+    color: green;
+}
+
+.red{
+    color: red;
+}
+
