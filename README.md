@@ -1,6 +1,7 @@
 # 2021 Golfing Magazine Map
 
 A web application to keep track of the golf betting game 'Wolf'
+
 If you are not familiar with Wolf - read up on the rules [here](https://www.liveabout.com/the-wolf-golf-betting-game-1561037)
 
 🔗 **Live preview of app:** [here](https://kevinsalina.github.io/Golf_App/)
