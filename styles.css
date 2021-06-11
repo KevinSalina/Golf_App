@@ -10,6 +10,7 @@ body{
     min-height: 100vh;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
 /* Intro / Form Section */
@@ -72,6 +73,8 @@ form > h2{
 .main-game{
     /* background-color: lightgray; */
     padding: 1rem;
+    max-width: 400px;
+    margin: 0 auto;
 }
 
 .game-info h2{
@@ -139,7 +142,7 @@ h2.wolf{
 }
 
 .wolf-logo{
-    background-image: url(/GolfApp/assets/wolf-emblem.svg);
+    background-image: url(./assets/wolf-emblem.svg);
     margin-left: .5rem;
     width: 2rem;
     height: 2rem;
